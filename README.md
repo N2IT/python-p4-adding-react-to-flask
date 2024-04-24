@@ -50,7 +50,7 @@ This lesson contains the solution code from the Chatterbox lab. To run the
 application, open two terminal windows. In the first run:
 
 - `pipenv install && pipenv shell` to enter your virtual environment.
--`cd server.
+- `cd server to enter the /server folder.
 - `export FLASK_APP=app.py` and `export FLASK_RUN_PORT=5555` to configure your
   Flask environment.
 - `flask db upgrade` to generate your database.
